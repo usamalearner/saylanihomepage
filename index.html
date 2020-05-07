@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="bootstrap-4.4.1-dist/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- <script src="bootstrap"></script> -->
+
+
+<title>Document</title>
+    <style>
+        .bl{
+            background-color:black;
+        }
+        .white{
+            background-color: white;
+        }
+        .blue{
+            background-color:rgb(0, 255, 0);
+        }
+        .home{
+            background-color: rgb(97, 97, 145);
+            border-radius: 20px;
+            width: 100px;
+            text-align: center;
+        }
+        .y{
+            flex:1;
+        }
+        .bb{
+            flex:2;
+            justify-content: right !important;
+        }
+    </style>
+        <!-- Insert to your webpage before the </head> -->
+        <script src="sliderengine/jquery.js"></script>
+        <script src="sliderengine/amazingslider.js"></script>
+        <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+        <script src="sliderengine/initslider-1.js"></script>
+        <!-- End of head section HTML codes -->
+        <style>
+            .maiin{
+                position: relative;
+            
+            }
+            .subb{
+                position: absolute;
+                opacity: 0;
+                transition: 0.5s all;
+                top: 0px;
+                background-color: black;
+                text-decoration: none;
+                width: 240px;
+                height: 150px;
+                border: 5px solid grey;
+                
+            }
+            .maiin:hover>.subb{
+                opacity: 1;
+                /* position: relative; */
+                /* transform: scale(1,1.1); */
+                
+            }
+            .flexx{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                padding: 20px;
+           
+                justify-content: space-around;
+                /* min-width: ; */
+                /* justify-content: center; */
+            }
+            .ddd{
+                /* align-content: center; */
+                margin-top: 25%;
+                margin-left: 39%;
+            }
+            .dd{
+                margin-top: 25%;
+                margin-right: 15%;
+            }
+        </style>
+        
+</head>
+<body onload="abc3() , abc4() ,abc5(), abc6()">
+    <div class="main">
+        <div class="social">
+        <a href="facebook.com" class="fa y fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-whatsapp"></a>
+    </div>
+    <div class="p">
+
+        <P  class="p1"><br> Millions of people's life has changed, millions more awaiting your donation</P></div>
+        
+       <div class="butn"> <button class=" uk" >UK Donar</button>
+        <button class="uk">Donate Now</button>
+        <button class="uk">SMIT Results</button>
+    </div>
+</div>
+    <div class=" div2">
+       
+        <div class="white bb" > 
+            <nav class="navbar navbar-expand-lg navbar-light  white">
+                <img class="kk" src="image/logo1.png" alt="logo" width="205" height="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="navbar-toggler blue" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown"class="white" >
+                  <ul class="navbar-nav white"> 
+                      <li class="nav-item">
+                    <a class="nav-link home" href="#" >Home</a>
+                  </li>
+                    <li class="nav-item active" class="white" >
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About  
+        
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Introduction</a>
+                              <a class="dropdown-item" href="#">Chairman Message</a>
+                              <a class="dropdown-item" href="#">Saylani Annual Report</a>
+                            </div>
+                          </li>
+                          
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             
+        
+        Saylani Services 
+        
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Education</a>
+                              <a class="dropdown-item" href="#">Medical</a>
+                              <a class="dropdown-item" href="#">Welfare</a>
+                              <a class="dropdown-item" href="#">Hajj Application Form</a>
+                              <a class="dropdown-item" href="#">Saylani Dastarkhwan</a>
+                              <a class="dropdown-item" href="#">Saylani RO Plant</a>
+                              <a class="dropdown-item" href="#">Education</a>
+                              <a class="dropdown-item" href="#">Online Sadqah</a>
+                              <a class="dropdown-item" href="#">Online Taweezat / Istekhara</a>
+                              <a class="dropdown-item" href="#">Saylani job Bank</a>
+                               <a class="dropdown-item" href="#">Online Quran Academy</a>
+                              <a class="dropdown-item" href="#">Books</a>
+                              <a class="dropdown-item" href="#">Saylani Online Masajid</a>
+                            </div>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              
+        
+        Future Project 
+        
+        
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <a class="dropdown-item" href="#">Saylani University</a>
+                              <a class="dropdown-item" href="#">Saylani City</a>
+                             
+                            </div>
+                          </li>
+                      <a class="nav-link" href="#">Media <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">News</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          
+        
+                            Donation
+        
+        
+        
+        
+        
+        
+        
+        
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <!-- <a class="dropdown-item" href="#">News</a> -->
+                          <!-- <a class="dropdown-item" href="#"> </a> -->
+                          <a class="dropdown-item" href="#">Bank Details</a>
+                          <a class="dropdown-item" href="#">Sadqa
+                            </a>
+                          <a class="dropdown-item" href="#">
+                            Aqiqa
+                          </a>
+                          <a class="dropdown-item" href="#">
+                          
+                            Other Donation
+                         </a>
+                          <a class="dropdown-item" href="#">   Corona Effecties
+                           </a>
+                          <a class="dropdown-item" href="#"> Ramzan - 2020
+                            
+                             </a>
+                          <a class="dropdown-item" href="#">Contact Us</a>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </div>
+              </nav>
+              </div>
+    </div>
+    <div>
+        
+    <!-- Insert to your webpage where you want to display the slider -->
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1400px;margin:0px auto 0px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/slider1.png" />
+                </li>
+                <li><img src="images/RotiBank_Slider.jpg" />
+                </li>
+                <li><img src="images/slider2.png" />
+                </li>
+                <li><img src="images/2.jpg" />
+                </li>
+                <li><img src="images/3.jpg" />
+                </li>
+                <li><img src="images/4.jpg" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/slider1-tn.png" /></li>
+                <li><img src="images/RotiBank_Slider-tn.jpg" /></li>
+                <li><img src="images/slider2-tn.png" /></li>
+                <li><img src="images/2-tn.jpg" /></li>
+                <li><img src="images/3-tn.jpg" /></li>
+                <li><img src="images/4-tn.jpg" /></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+    </div>
+<div class="news">
+    <marquee behavior="" direction=""><p><font color="lightgreen">(News-1 Dated:15-06-2019) </font> PIAICNext Phase Admission in Islamabad And Faisalabad" . <a href="#">More Details </a>  <font color="green">  (News-2 Dated:15-05-2019)</font>  Saylani Welfare Announced "Donation Application" . More Details   <font color="green"> (News-3 Dated:07-05-2019)</font>  Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . More Details  <font color="green">  (News-4 Dated:08-03-2019) </font> Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan. More Details <font color="green">   (News-5 Dated:25-02-2019) </font> PIAIC Entrance Exam Merit Ranking List Announced. More Details  <font color="green"> (News-6 Dated:23-02-2019)  </font> President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. More Details    </p>
+    </marquee>
+</div>
+<div class="intro">
+    <br>
+    <br>
+    <br>
+    
+    <h1><FONT  color="blue">INTRO</FONT><FONT color="green">DUCTION</h1></FONT>
+    <br>
+    <h1><FONT color="green">___</FONT><img src="image/logo2.png" alt=""><FONT color="green">___</FONT></h1>
+    <div class="int">
+        <br>
+        <br>
+        <br>
+     
+    <p>Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial troubles of the poor, giving people a chance to live a dignified life and spreading happiness. </p>
+    <br><br><p>We are an organization that believes in lighting up the lives of underprivileged people across the world. We endeavor to provide the best quality services in areas including food, education, medical and social welfare free of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people each day, hundreds more are given the hope of life through medical health care, many are educated to become leaders of tomorrow and several are given the opportunity to stand on their feet financially. </p>
+    <br><br><p>Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125 branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide branches are operating under the guidance of a team of over 2,000 working professionals who help almost 125,000 people on a daily basis. </p>
+    <br><br>
+    <p>We strongly believe that a little help goes a long way and our work would not be possible without the generous support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting our causes and enabling us to serve the needs of people in need. </p>
+<br><br><br>
+       
+</div>
+</div>
+<div class="main2">
+  
+    <div class="one"></table><img style="margin-top: 70px;" src="image/dastarkhan.png" alt="" width="50" height="50"><br>
+        <script>
+            x=124500;
+            function abc3(){
+                x++;
+                document.getElementById("change").innerHTML=x;
+                setTimeout("abc3()",1);
+                if(x==124999)
+                {  --x;
+                    document.getElementById("change").innerHTML="125,000";
+                }
+               
+        }
+        </script>
+        <h1 id="change" align="center">0</h1>
+        <h4>DAILY DASTARKHAN </h4><h4 class="green">(MONTHLY)</h4></div>
+
+    <div class="two"><img style="margin-top: 70px;" src="image/family.png" alt=""  width="50" height="50"><br><script>
+       y=7000;
+        function abc4(){
+            y++;
+            document.getElementById("change2").innerHTML=y;
+            setTimeout("abc4()",1);
+            if(y==7500)
+            {  --y;
+                document.getElementById("change2").innerHTML="7,500";
+            }
+           
+    }
+    </script>
+    <h1 id="change2" align="center">0</h1>
+    <h4>FAMILY ADOPTION </h4><h4 class="green">(MONTHLY)</h4></div>
+    <div class="three"><img style="margin-top: 70px;" src="image/medical.png" alt=""  width="50" height="50"><br><script>
+       Z=43249;
+        function abc5(){
+           Z++;
+            document.getElementById("change3").innerHTML=Z;
+            setTimeout("abc5()",1);
+            if(Z==43749)
+            {  --Z;
+                document.getElementById("change3").innerHTML="43,749";
+            }
+           
+    }
+    </script>
+    <h1 id="change3" align="center">0</h1>
+    <h4>MEDICAL </h4><h4 class="green">(MONTHLY)</h4></div>
+    <div class="four"><img style="margin-top: 70px;" src="image/education.png" alt=""  width="50" height="50"><br><script>
+        T=179500;
+        function abc6(){
+            T++;
+            document.getElementById("change4").innerHTML=T;
+            setTimeout("abc6()",1);
+            if(T==180000)
+            {  --T;
+                document.getElementById("change4").innerHTML="18O,OOO";
+            }
+           
+    }
+    </script>
+    <h1 id="change4" align="center">0</h1>
+    <h4>EDUCATION </h4><h4 class="green">(MONTHLY)</h4></div>
+</div>
+<div class="intro" style="background-color: white; margin-left: 5%; margin-right: 5%;">
+    <br>
+    <br>
+   
+    
+    
+    <br>
+    <h1><FONT  color="blue">WHAT WE <FONT color="green"> ARE DOING?</FONT></h1>
+    <br>
+    <h1><FONT color="green">___</FONT><img src="image/logo2.png" alt=""><FONT color="green">___</FONT></h1>
+    <br> <br>
+    
+</div>
+<div class="back">
+<div class="what">
+    <div class="doing"><img style="margin-top: 70px;" src="image/onlinesadqah.png" alt=""  width="50" height="50"><br><H2>ONLINE SADQA</H2></div>
+    <div class="doing"><img style="margin-top: 70px;" src="image/welfare.png" alt=""  width="50" height="50"><br><H2>WELFARE</H2></div>
+    <div class="doing"><img style="margin-top: 70px;" src="image/medical2.png" alt=""  width="50" height="50"><br><H2>MEDICAL</H2></div>
+</div>
+<br><br>
+<BR></BR><BR>
+<div class="we">
+    <div class="doing"><img style="margin-top: 70px;" src="image/dastarkhan.png" alt=""  width="50" height="50"><br><h2>DASTARKHAN </h2></div>
+    <div class="doing"><img style="margin-top: 70px;" src="image/roplant.png" alt=""  width="50" height="50"><br><h2>RO PLANT</h2></div>
+    <div class="doing"><img style="margin-top: 70px;" src="image/education2.png" alt=""  width="50" height="50"><br><H2>EDUCATION</H2></div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<div class="mainn">
+    <div class="mission">
+        <h1 >MISSION AND UPCOMING PROJECTS</h1>
+        <h1><FONT color="green">___</FONT></h1><br>
+        <br>
+        <br>
+        <div class="ok">
+        <div class="miss"> &nbsp;&nbsp;&nbsp;<img style="margin-top: 5px;" src="image/hepa.png"  alt=""  width="50" height="50">HEPATITIS <br> </div>
+        <div class="miss">&nbsp;&nbsp;&nbsp;<img style="margin-top: 5px;" src="image/housing.png" alt=""  width="50" height="50">HOUSING SOCIETY <br></div>
+    </div><div class="ok" style="margin-top: 30px;"> <div class="miss" >&nbsp;&nbsp;&nbsp;<img style="margin-top: 5px;" src="image/IT.png" alt=""  width="50" height="50">IT LITERACY <br></div>
+           <div class="miss">&nbsp;&nbsp;&nbsp;<img style="margin-top: 5px;" src="image/tharparkar.png" alt=""  width="50" height="50">THARPARKAR <br> </div>
+    </div></div>
+    <div class="up" style="margin-top: 30px;" >
+        <h1 >Upcoming Events</h1>
+        <h1><FONT color="green">___</FONT></h1><br>
+            <div class="newss"><marquee scrollamount="2" onmouseover="stop()" onmouseout="start()" direction ="up" height="200" ><p>Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan . <a href="#">More Details</a><br> <br><br>
+
+                Entry Test Accouncement (Graphic Designing & Video Editing/Animation Course) On Sunday 3rd March 2019 @ 11:00Am Vanue: 4rh Floor, Saylani Welfare International Trust HeadOffice Bahadurabad . <a href="#">More Details </a><br><br><br>
+                
+                Dr Jamil Ahmed (Additional Inspector General of Police) & Atiqmir Visit Saylani Welfare International Trust, Saylani Mass I.T. Training . <a href="#">More Details </a> <br><br><br>
+                
+                PIAIC Entrance Exam Merit Ranking List Announced. <a href="#"> More Details</a> <br>
+                
+                President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. <a href="#"> More Details</a> <br><br><br></p></marquee></div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div>
+    <div class="intro" style="background-color: white; ">
+        <br>
+        <br>
+       
+        
+        
+        <br>
+        <h1><FONT  color="blue">IMAGE <FONT color="green"> GALLERY</FONT></h1>
+        <br>
+        <h1><FONT color="green">___</FONT><img src="image/logo2.png" alt=""><FONT color="green">___</FONT></h1>
+        <br> <br>
+        
+    </div>
+    <div id="check"></div>
+     
+    <div class="flexx"><div class="maiin"><img src="rashan2.jpg" alt="" width="240" height="150">
+        <div class="subb ">
+            <a href="rashan2.jpg" download>  <svg class="bi bi-download ddd" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z" clip-rule="evenodd"/>
+              </svg>
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="rashan2.jpg"  >
+              <svg class="bi bi-arrows-fullscreen dd" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.464 10.536a.5.5 0 01.5.5v3h3a.5.5 0 010 1h-3.5a.5.5 0 01-.5-.5v-3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5.964 10a.5.5 0 010 .707l-4.146 4.147a.5.5 0 01-.707-.708L5.257 10a.5.5 0 01.707 0zm8.854-8.854a.5.5 0 010 .708L10.672 6a.5.5 0 01-.708-.707l4.147-4.147a.5.5 0 01.707 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M10.5 1.5A.5.5 0 0111 1h3.5a.5.5 0 01.5.5V5a.5.5 0 01-1 0V2h-3a.5.5 0 01-.5-.5zm4 9a.5.5 0 00-.5.5v3h-3a.5.5 0 000 1h3.5a.5.5 0 00.5-.5V11a.5.5 0 00-.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M10 9.964a.5.5 0 000 .708l4.146 4.146a.5.5 0 00.708-.707l-4.147-4.147a.5.5 0 00-.707 0zM1.182 1.146a.5.5 0 000 .708L5.328 6a.5.5 0 00.708-.707L1.889 1.146a.5.5 0 00-.707 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5.5 1.5A.5.5 0 005 1H1.5a.5.5 0 00-.5.5V5a.5.5 0 001 0V2h3a.5.5 0 00.5-.5z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+        </div>
+    </div>
+    <div class="maiin"><img src="food.jpg" alt="" width="240" height="150">
+        <div class="subb ">
+            <a href="food.jpg" download>  <svg class="bi bi-download ddd" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z" clip-rule="evenodd"/>
+              </svg>
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="food.jpg"  >
+              <svg class="bi bi-arrows-fullscreen dd" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.464 10.536a.5.5 0 01.5.5v3h3a.5.5 0 010 1h-3.5a.5.5 0 01-.5-.5v-3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5.964 10a.5.5 0 010 .707l-4.146 4.147a.5.5 0 01-.707-.708L5.257 10a.5.5 0 01.707 0zm8.854-8.854a.5.5 0 010 .708L10.672 6a.5.5 0 01-.708-.707l4.147-4.147a.5.5 0 01.707 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M10.5 1.5A.5.5 0 0111 1h3.5a.5.5 0 01.5.5V5a.5.5 0 01-1 0V2h-3a.5.5 0 01-.5-.5zm4 9a.5.5 0 00-.5.5v3h-3a.5.5 0 000 1h3.5a.5.5 0 00.5-.5V11a.5.5 0 00-.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M10 9.964a.5.5 0 000 .708l4.146 4.146a.5.5 0 00.708-.707l-4.147-4.147a.5.5 0 00-.707 0zM1.182 1.146a.5.5 0 000 .708L5.328 6a.5.5 0 00.708-.707L1.889 1.146a.5.5 0 00-.707 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5.5 1.5A.5.5 0 005 1H1.5a.5.5 0 00-.5.5V5a.5.5 0 001 0V2h3a.5.5 0 00.5-.5z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+        </div>
+    </div>
+    <div class="maiin"><img src="hazrat.jpg" alt="" width="240" height="150">
+        <div class="subb ">
+            <a href="hazrat.jpg" download>  <svg class="bi bi-download ddd" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z" clip-rule="evenodd"/>
+              </svg>
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="hazrat.jpg"  >
+              <svg class="bi bi-arrows-fullscreen dd" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.464 10.536a.5.5 0 01.5.5v3h3a.5.5 0 010 1h-3.5a.5.5 0 01-.5-.5v-3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5.964 10a.5.5 0 010 .707l-4.146 4.147a.5.5 0 01-.707-.708L5.257 10a.5.5 0 01.707 0zm8.854-8.854a.5.5 0 010 .708L10.672 6a.5.5 0 01-.708-.707l4.147-4.147a.5.5 0 01.707 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M10.5 1.5A.5.5 0 0111 1h3.5a.5.5 0 01.5.5V5a.5.5 0 01-1 0V2h-3a.5.5 0 01-.5-.5zm4 9a.5.5 0 00-.5.5v3h-3a.5.5 0 000 1h3.5a.5.5 0 00.5-.5V11a.5.5 0 00-.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M10 9.964a.5.5 0 000 .708l4.146 4.146a.5.5 0 00.708-.707l-4.147-4.147a.5.5 0 00-.707 0zM1.182 1.146a.5.5 0 000 .708L5.328 6a.5.5 0 00.708-.707L1.889 1.146a.5.5 0 00-.707 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5.5 1.5A.5.5 0 005 1H1.5a.5.5 0 00-.5.5V5a.5.5 0 001 0V2h3a.5.5 0 00.5-.5z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+        </div>
+        
+    </div>
+    <div class="maiin"><img src="rashan2.jpg" alt="" width="240" height="150">
+        <div class="subb ">
+            <a href="rashan2.jpg" download>  <svg class="bi bi-download ddd" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z" clip-rule="evenodd"/>
+              </svg>
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="rashan2.jpg"  >
+              <svg class="bi bi-arrows-fullscreen dd" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.464 10.536a.5.5 0 01.5.5v3h3a.5.5 0 010 1h-3.5a.5.5 0 01-.5-.5v-3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5.964 10a.5.5 0 010 .707l-4.146 4.147a.5.5 0 01-.707-.708L5.257 10a.5.5 0 01.707 0zm8.854-8.854a.5.5 0 010 .708L10.672 6a.5.5 0 01-.708-.707l4.147-4.147a.5.5 0 01.707 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M10.5 1.5A.5.5 0 0111 1h3.5a.5.5 0 01.5.5V5a.5.5 0 01-1 0V2h-3a.5.5 0 01-.5-.5zm4 9a.5.5 0 00-.5.5v3h-3a.5.5 0 000 1h3.5a.5.5 0 00.5-.5V11a.5.5 0 00-.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M10 9.964a.5.5 0 000 .708l4.146 4.146a.5.5 0 00.708-.707l-4.147-4.147a.5.5 0 00-.707 0zM1.182 1.146a.5.5 0 000 .708L5.328 6a.5.5 0 00.708-.707L1.889 1.146a.5.5 0 00-.707 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5.5 1.5A.5.5 0 005 1H1.5a.5.5 0 00-.5.5V5a.5.5 0 001 0V2h3a.5.5 0 00.5-.5z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+        </div>
+    </div>
+    <div class="maiin"><img src="hazrat2.jpg" alt="" width="240" height="150">
+        <div class="subb ">
+            <a href="hazrat2.jpg" download>  <svg class="bi bi-download ddd" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z" clip-rule="evenodd"/>
+              </svg>
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+              <a href="hazrat2.jpg"  >
+              <svg class="bi bi-arrows-fullscreen dd" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M1.464 10.536a.5.5 0 01.5.5v3h3a.5.5 0 010 1h-3.5a.5.5 0 01-.5-.5v-3.5a.5.5 0 01.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5.964 10a.5.5 0 010 .707l-4.146 4.147a.5.5 0 01-.707-.708L5.257 10a.5.5 0 01.707 0zm8.854-8.854a.5.5 0 010 .708L10.672 6a.5.5 0 01-.708-.707l4.147-4.147a.5.5 0 01.707 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M10.5 1.5A.5.5 0 0111 1h3.5a.5.5 0 01.5.5V5a.5.5 0 01-1 0V2h-3a.5.5 0 01-.5-.5zm4 9a.5.5 0 00-.5.5v3h-3a.5.5 0 000 1h3.5a.5.5 0 00.5-.5V11a.5.5 0 00-.5-.5z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M10 9.964a.5.5 0 000 .708l4.146 4.146a.5.5 0 00.708-.707l-4.147-4.147a.5.5 0 00-.707 0zM1.182 1.146a.5.5 0 000 .708L5.328 6a.5.5 0 00.708-.707L1.889 1.146a.5.5 0 00-.707 0z" clip-rule="evenodd"/>
+                <path fill-rule="evenodd" d="M5.5 1.5A.5.5 0 005 1H1.5a.5.5 0 00-.5.5V5a.5.5 0 001 0V2h3a.5.5 0 00.5-.5z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+</div>
+<div id="con">
+    <br>
+    <br>
+    <br>
+
+    <div class="add">
+        
+      <h6> Head Office, </h6> 
+      <h6>A-25, Bahadurabad Chowrangi Karachi, Pakistan </h6> 
+      <br><br>
+      <h6><a href="#" class="fa fa-phone green" ></a>UAN: 111-729-526 <a href="#" class="fa fa-phone green" ></a> (+0092-213) 4130786-90 </h6>  <br><h6><a href="#" class="fa fa-phone green" ></a> CELL: 92-311-1729526 </h6><br> <h6><a href="#" class="fa fa-phone green" ></a>USA NO +1(716)941 7792</h6> <br><h6><a href="#" class="fa fa-phone green" ></a> UK NO (+44)115 970 6256 </h6><br> <h6><a href="#" class="fa fa-envelope green" ></a> info@saylaniwelfare.com</h6>
+    </div>
+    <div class="useful"> <h3>Useful Links </h3>
+      <h3>  <FONT color="green">___</FONT></h3></div>
+        <div class="linkk add">
+            <h3>Connect with us</h3>
+            <a href="facebook.com" class="fa  fa-facebook" ></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
+   
+  <br>
+  <br>
+  <br><br>
+  <br>
+  <br>
+  <br>
+ </div>
+ <footer class="last">
+     <div class="last">
+        <p class=" last foo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <br>
+         Copyright © 2020 Saylani Welfare </p>
+     </div>
+     <div class="bl">
+        <p bgcolor="black">By Syed Usama Ali</p>
+     </div>
+ </footer>
+
+</body>
+</html>

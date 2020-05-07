@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Insert to your webpage before the </head> -->
+        <script src="sliderengine/jquery.js"></script>
+        <script src="sliderengine/amazingslider.js"></script>
+        <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+        <script src="sliderengine/initslider-1.js"></script>
+        <!-- End of head section HTML codes -->
+</head>
+<body>
+    <div class="main">
+        <div class="social">
+        <a href="facebook.com" class="fa y fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-whatsapp"></a>
+    </div>
+    <div class="p">
+
+        <P  class="p1"><br> Millions of people's life has changed, millions more awaiting your donation</P></div>
+        
+       <div class="butn"> <button class=" uk" >UK Donar</button>
+        <button class="uk">Donate Now</button>
+        <button class="uk">SMIT Results</button>
+    </div>
+</div>
+    <div class=" div2">
+        <img class="y" src="image/logo1.png" alt="logo" width="205" height="65">
+    </div>
+    <div>
+        
+    <!-- Insert to your webpage where you want to display the slider -->
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:1400px;margin:0px auto 0px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/slider1.png" />
+                </li>
+                <li><img src="images/RotiBank_Slider.jpg" />
+                </li>
+                <li><img src="images/slider2.png" />
+                </li>
+                <li><img src="images/2.jpg" />
+                </li>
+                <li><img src="images/3.jpg" />
+                </li>
+                <li><img src="images/4.jpg" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/slider1-tn.png" /></li>
+                <li><img src="images/RotiBank_Slider-tn.jpg" /></li>
+                <li><img src="images/slider2-tn.png" /></li>
+                <li><img src="images/2-tn.jpg" /></li>
+                <li><img src="images/3-tn.jpg" /></li>
+                <li><img src="images/4-tn.jpg" /></li>
+            </ul>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+    </div>
+<div class="news">
+    <marquee behavior="" direction=""><p><font color="lightgreen">(News-1 Dated:15-06-2019) </font> PIAICNext Phase Admission in Islamabad And Faisalabad" . <a href="#">More Details </a>  <font color="green">  (News-2 Dated:15-05-2019)</font>  Saylani Welfare Announced "Donation Application" . More Details   <font color="green"> (News-3 Dated:07-05-2019)</font>  Alhamdulillah Saylani Organized 200+ Locations For Iftar And Sehri In This Holy Month . More Details  <font color="green">  (News-4 Dated:08-03-2019) </font> Saylani Welfare Distributing Ration & Clothes to affected people of Balochistan. More Details <font color="green">   (News-5 Dated:25-02-2019) </font> PIAIC Entrance Exam Merit Ranking List Announced. More Details  <font color="green"> (News-6 Dated:23-02-2019)  </font> President of Pakistan (Dr. Arif Alvi) Visited Saylani Welfare International Trust HeadOffice Karachi. More Details    </p>
+    </marquee>
+</div>
+<div class="intro">
+    <br>
+    <br>
+    <br>
+    
+    <h1><FONT  color="blue">INTRO</FONT><FONT color="green">DUCTION</h1></FONT>
+    <br>
+    <h1><FONT color="green">___</FONT><img src="image/logo2.png" alt=""><FONT color="green">___</FONT></h1>
+    <div class="int">
+        <br>
+        <br>
+        <br>
+     
+    <p>Established in May 1999 by famous spiritual and religious scholar Maulana Bashir Ahmed Farooqui, Saylani Welfare International Trust was built on the fundamentals of breaking the cycle of poverty, alleviating the financial troubles of the poor, giving people a chance to live a dignified life and spreading happiness. </p>
+    <br><br><p>We are an organization that believes in lighting up the lives of underprivileged people across the world. We endeavor to provide the best quality services in areas including food, education, medical and social welfare free of cost to people living in the dark. With over 60 different sectors, we feed thousands of hungry people each day, hundreds more are given the hope of life through medical health care, many are educated to become leaders of tomorrow and several are given the opportunity to stand on their feet financially. </p>
+    <br><br><p>Today, we are proud to say that our physical presence extends throughout Pakistan with a vast network of 125 branches operating in major cities including Karachi, Lahore, Islamabad, Rawalpindi, Hyderabad and Faisalabad. Apart from Pakistan, we have overseas offices in the UK, USA and UAE as well. Our worldwide branches are operating under the guidance of a team of over 2,000 working professionals who help almost 125,000 people on a daily basis. </p>
+    <br><br>
+    <p>We strongly believe that a little help goes a long way and our work would not be possible without the generous support of our valuable donors. Our local and international donors have graciously lent us a hand by supporting our causes and enabling us to serve the needs of people in need. </p>
+<br><br><br>
+        <div class="main2">
+            <div class="one"><img src="image/dastarkhan.png" alt="" width="50" height="50"><br>125,000 <br>DAILY DASTARKHAN(MONTHLY)</div>
+            <div class="two"><img src="image/family.png" alt=""  width="50" height="50"><br>125,000 <br>DAILY DASTARKHAN(MONTHLY)</div>
+            <div class="three"><img src="image/medical.png" alt=""  width="50" height="50"><br>125,000 <br>DAILY DASTARKHAN(MONTHLY)</div>
+            <div class="four"><img src="image/education.png" alt=""  width="50" height="50"><br>125,000 <br>DAILY DASTARKHAN(MONTHLY)</div>
+        </div>
+</div>
+</div>
+</body>
+</html>
+*{
+    margin : 0;
+    padding :0;
+}
+.social{
+  text-align: center;
+    height: 50px;
+    background-color: rgba(21, 70, 160, 0.822);
+    /* min-width: 200px; */
+    /* border: 1px solid red; */
+   /* #427900 green  #006618 #ffffff*/
+   flex: 2;
+   justify-content: center;
+   display: inline;
+  
+}
+.p{
+ 
+  
+  justify-content: center;
+  background-color: rgba(21, 70, 160, 0.822);
+}
+/* .y{
+    /* margin-left: 10%; */
+    /* color: white; */
+    /* font-size: 16px; */
+
+.fa {
+    margin-top: 12px;
+   
+    padding: 5px;
+    font-size: 15px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  /* Facebook */
+.fa-facebook {
+    /* background: #3B5998; */
+    color: white;
+  }
+  .fa:hover {
+    /* opacity: 0.7; */
+    background-color:rgb(54, 101, 204);
+    cursor:pointer ;
+  }
+  /* Twitter */
+.fa-twitter {
+    /* background: #55ACEE; */
+    color: white;
+  }
+  .fa-instagram {
+    /* background: #55ACEE; */
+    color: white;
+  }
+  .fa-youtube {
+    /* background: #55ACEE; */
+    color: white;
+  }
+  .fa-whatsapp {
+    background:#12d643;
+    color: white;
+  }
+  .p1{
+
+      /* margin-top: 0px; */
+      display: inline;
+    background-color: rgba(21, 70, 160, 0.822);
+      flex:3;
+      /* line-height: 50px; */
+    color: white;
+    /* margin-top: auto; */
+    text-align: center;
+    margin-left: 1%;
+    justify-content: center;
+
+    }
+.uk{
+  /* margin-bottom: 25px; */
+  margin-top: 10px;
+    padding: 8px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(13, 129, 13);
+    color:  rgb(13, 129, 13);
+    /* top: -50px; */
+}
+.div2{
+    height: 67px;
+ background-attachment: fixed;
+    background-color: rgb(255, 255, 255);
+}
+.news{
+    margin-top: 5px;
+    margin-left:8%;
+    margin-right: 8%;
+    background-color: #0000ff;
+    color: white;
+    height: 40px;
+    line-height: 40px;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(21, 70, 160, 0.822);
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.butn{
+  /* background-color:rgb(54, 101, 204); */
+  flex:2;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(21, 70, 160, 0.822) !important;
+  /* top: -50px; */
+  /* margin-bottom: -20px; */
+  
+}
+.intro{
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.int{
+  text-align: justify;
+  font-size: 15px;
+  color: grey;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: sans-serif;
+}
+.main2{
+  display: flex;
+  flex-direction: row; 
+  background-color: rgba(21, 70, 160, 0.822);
+  flex-wrap: wrap;
+  text-align: center;
+  /* height:300px ; */
+}
+.one{
+  background-color: rgba(21, 70, 160, 0.822);
+  /* height:300px ; */
+  text-align: center;
+
+}
+.two{
+  background-color: rgba(21, 70, 160, 0.822);
+  /* height:300px ; */
+  text-align: center;
+}
+.three{
+  background-color: rgba(21, 70, 160, 0.822);
+  /* height:300px ; */
+  text-align: center;
+}
+.four{
+  background-color: rgba(21, 70, 160, 0.822);
+  /* height:300px ; */
+  text-align: center;
+}
